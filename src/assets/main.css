@@ -4,6 +4,7 @@ html {
   font-family: 'Comfortaa', sans-serif !important;
   height: 100%;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 p {
@@ -27,6 +28,11 @@ body {
 
 header {
   display: block;
+}
+
+.center {
+  align-items: center;
+  text-align:center;
 }
 
 .p-relative {

@@ -1,17 +1,38 @@
-<script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+<script lang="ts">
+import { defineComponent } from 'vue';
+export default defineComponent({
+  name: 'App',
+  data() {
+    return {
+      scrollPosition: null as unknown as number,
+    }
+  },
+  methods: {
+    onClick(path: string) {
+
+    }
+  },
+  mounted() {
+    window.addEventListener('scroll', () => {
+      this.scrollPosition = window.scrollY;
+    });
+  }
+});
 </script>
 
 <template>
   <div class="p-relative">
-    <nav class="navBar fixed">
+    <nav :class="['navBar', 'fixed', {'bg': scrollPosition > 50}]">
       <div class="navBar-container">
         <ul class="navBar-list">
           <li class="navBar-item">
-            <RouterLink to="/" class="navBar-link">Home</RouterLink>
+            <a href="#home" class="navBar-link">Home</a>
           </li>
           <li class="navBar-item">
-            <RouterLink to="/" class="navBar-link">About</RouterLink>
+            <a href="#about" class="navBar-link">About</a>
+          </li>
+          <li class="navBar-item">
+            <a href="#contact" class="navBar-link">Contact</a>
           </li>
         </ul>
       </div>
@@ -22,8 +43,16 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style scoped>
+.bg {
+  color: black !important;
+  background-color: white !important;
+  box-shadow: 0 0 5px rgb(0 0 0 / 31%);
+}
+.bg > .navBar-link {
+  color: inherit !important;
+}
 .navBar-link {
-  color: white !important;
+  color: inherit;
   text-decoration: none;
 }
 
@@ -60,5 +89,6 @@ import { RouterLink, RouterView } from 'vue-router'
   height: 94px;
   display: flex !important;
   transition: all .6s ease;
+  color:white;
 }
 </style>
