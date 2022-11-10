@@ -3,9 +3,9 @@
     <Ccard class = "info-display">
       <CCardHeader></CCardHeader>
       <CListGroup flush>
-        <CCardGroupItem><p class = "text-display item-left">Login to your univeristy network in app</p> <img class="image-location img-right" src="../assets/log_in.jpg" alt=""></CCardGroupItem>
-        <CCardGroupItem><p class = "text-display item-right" >Click to generate a link/QR code</p><img class="image-location img-left" src="../assets/log_in.jpg" alt=""></CCardGroupItem>
-        <CCardGroupItem><p class = "text-display item-left">Share the link with a participating business</p><img class="image-location img-right" src="../assets/log_in.jpg" alt=""></CCardGroupItem>
+        <CCardGroupItem><p class = "text-display item-left">Login to your univeristy network in app</p> <img class="image-location img-right" src="../assets/student_info_pic1.jpg" alt=""></CCardGroupItem>
+        <CCardGroupItem><p class = "text-display item-right" >Click to generate a link/QR code</p><img class="image-location img-left" src="../assets/student_info_pic2.png" alt=""></CCardGroupItem>
+        <CCardGroupItem><p class = "text-display item-left">Share the link with a participating business</p><img class="image-location img-right" src="../assets/student_info_pic3.jpg" alt=""></CCardGroupItem>
       </CListGroup>
     </Ccard>
   </div>
