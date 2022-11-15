@@ -1,19 +1,11 @@
 {
-    "redirects": [
-      { "source": "/student", "destination": "/student" },
-      { "source": "/user", "destination": "/api/user", "permanent": false },
-      { "source": "/view-source", "destination": "https://github.com/vercel/vercel" },
-      {
-        "source": "/:path((?!uk/).*)",
-        "has": [
-          {
-            "type": "header",
-            "key": "x-vercel-ip-country",
-            "value": "GB"
-          }
-        ],
-        "destination": "/uk/:path*",
-        "permanent": false
-      }
+    "routes": [
+      { "src": "/redirect", "status": 308, "headers": { "Location": "https://example.com/" } },
+      { "src": "/custom-page", "headers": {"cache-control": "s-maxage=1000"}, "dest": "/index.html" },
+      { "src": "/student", "dest": "/StudentInfo.vue" },
+      { "src": "/users", "methods": ["POST"], "dest": "/users-api.js" },
+      { "src": "/users/(?<id>[^/]*)", "dest": "/users-api.js?id=$id" },
+      { "src": "/legacy", "status": 404},
+      { "src": "/.*", "dest": "https://my-old-site.com"}
     ]
   }
