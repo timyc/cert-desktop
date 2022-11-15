@@ -1,6 +1,6 @@
 {
     "redirects": [
-      { "source": "/student", "destination": "src/views/StudentInfo.vue" },
+      { "source": "/student", "destination": "/student" },
       { "source": "/user", "destination": "/api/user", "permanent": false },
       { "source": "/view-source", "destination": "https://github.com/vercel/vercel" },
       {
