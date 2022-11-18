@@ -1,9 +1,3 @@
 {
-  "buildCommand": "next build",
-
-  "routes": [
-    { "src": "/redirect", "status": 308, "headers": { "Location": "https://example.com/" } },
-    { "src": "/custom-page", "headers": {"cache-control": "s-maxage=1000"}, "dest": "/index.html" },
-    { "src": "/student", "dest": "/StudentInfo.vue" }
-  ]
+  "buildCommand": "next build"
 }
