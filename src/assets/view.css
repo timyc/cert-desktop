@@ -1,0 +1,91 @@
+ 
+.socials{
+    width: 5vh;
+    margin-left: auto;
+}
+
+.logo{
+    font-weight: bolder;
+    font-size: 2rem;
+    background: darkslategray;;
+    padding: 0%;
+    margin: 0%;
+}
+  
+.logo1{
+    color: #65CC4C;
+}
+
+.logo2{
+    color: #161616;
+}
+
+.man-standing{
+    position: absolute;
+    right: 40vh;
+    bottom: 10vh;
+    width: 40vh;
+}
+  
+.header{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    position: relative;
+    left: 25vh;
+}
+  
+.student {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D3D3D3;
+}
+.info-display{
+    background-color: white;
+    width: 70vh;
+    height: 60vh;
+    align-items: center;
+}
+
+.text-display{
+    position: relative;
+}
+
+.image-location{
+    position: relative;
+    width: 14vh;
+    height: 14vh;
+}
+  
+.item-left{
+    top: 5vh;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.item-right{
+    left: 20vh;
+    top: 5vh;    
+    font-size: large;
+    font-weight: bolder;
+}
+
+.img-right{
+    left: 50vh;
+    bottom: 7vh;
+}
+  
+.img-left{
+    bottom: 5vh;
+    left: 2vh;
+}
+  
+.footer {
+    background: darkslategray;
+    padding: 1em;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}

@@ -37,6 +37,12 @@ export default defineComponent({
           <li class="navBar-item">
             <a href="/student" class="navBar-link">Student</a>
           </li>
+          <li class="navBar-item">
+            <a href="/business" class="navBar-link">Business</a>
+          </li>
+          <li class="navBar-item">
+            <a href="/institution" class="navBar-link">Institution</a>
+          </li>
         </ul>
       </div>
     </nav>
