@@ -1,6 +1,9 @@
 
 {
     "routes": [
-      { "src": "/student", "dest": "index.html" }
+      { "src": "/student", "dest": "index.html" },
+      { "src": "/institution", "dest": "index.html" },
+      { "src": "/business", "dest": "index.html" },
+      { "src": "/", "dest": "index.html" }
     ]
 }
