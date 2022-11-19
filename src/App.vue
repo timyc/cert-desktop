@@ -26,7 +26,7 @@ export default defineComponent({
       <div class="navBar-container">
         <ul class="navBar-list">
           <li class="navBar-item">
-            <a href="#home" class="navBar-link">Home</a>
+            <a href="/" class="navBar-link">Home</a>
           </li>
           <li class="navBar-item">
             <a href="#about" class="navBar-link">About</a>
