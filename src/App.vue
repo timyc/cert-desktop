@@ -17,6 +17,7 @@ export default defineComponent({
       this.scrollPosition = window.scrollY;
     });
   }
+  
 });
 </script>
 
@@ -29,10 +30,10 @@ export default defineComponent({
             <a href="/" class="navBar-link">Home</a>
           </li>
           <li class="navBar-item">
-            <a href="#about" class="navBar-link">About</a>
+            <a href="/#about" class="navBar-link">About</a>
           </li>
           <li class="navBar-item">
-            <a href="#contact" class="navBar-link">Contact</a>
+            <a href="/#contact" class="navBar-link">Contact</a>
           </li>
           <li class="navBar-item">
             <a href="/student" class="navBar-link">Student</a>
