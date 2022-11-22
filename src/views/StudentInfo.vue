@@ -9,8 +9,9 @@
         <CCardGroupItem><p class = "text-display item-left">Share the link with a participating business</p><img class="image-location img-right" src="@/assets/student_info_pic3.jpg" alt=""></CCardGroupItem>
       </CListGroup>
     </Ccard>
+    <img class="man-standing" src="@/assets/lawyer_standin.png" alt="">
   </div>
-  <img class="man-standing" src="@/assets/lawyer_standin.png" alt="">
+ 
     <el-footer class="footer" height="300">
       <div>
       <p>educertified@gmail.com</p>

@@ -32,7 +32,7 @@
     font-weight: bold;
     font-size: large;
     position: relative;
-    left: 25vh;
+    left: 40%;
 }
   
 .student {
@@ -44,8 +44,8 @@
 }
 .info-display{
     background-color: white;
-    width: 70vh;
-    height: 60vh;
+    width: 37%;
+    height: 40%;
     align-items: center;
 }
 
@@ -55,31 +55,31 @@
 
 .image-location{
     position: relative;
-    width: 14vh;
-    height: 14vh;
+    width: 20%;
+    height: 25%;
 }
   
 .item-left{
-    top: 5vh;
+    top: 50%;
     font-size: large;
     font-weight: bolder;
 }
 
 .item-right{
-    left: 20vh;
-    top: 5vh;    
+    left: 50%;
+    bottom: 20vh;  
     font-size: large;
     font-weight: bolder;
 }
 
 .img-right{
-    left: 50vh;
-    bottom: 7vh;
+    left: 75%;
+    bottom: 5vh;
 }
   
 .img-left{
     bottom: 5vh;
-    left: 2vh;
+    left: 3%;
 }
   
 .footer {
