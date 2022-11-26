@@ -5,8 +5,8 @@
         <CCardHeader class = "header">How it Works</CCardHeader>
         <CListGroup>
           <CCardGroupItem><p class = "text-display item-left">Click on the link provided by the student</p> <img class="image-location img-right" src="@/assets/student_info_pic2.png" alt=""></CCardGroupItem>
-          <CCardGroupItem><p class = "text-display item-right" >Log in to your Certitude Business account</p><img class="image-location img-left" src="@/assets/student_info_pic1.jpg" alt=""></CCardGroupItem>
-          <CCardGroupItem><p class = "text-display item-left">View the student's academic credentials</p><img class="image-location img-right" src="@/assets/student_info_pic3.jpg" alt=""></CCardGroupItem>
+          <CCardGroupItem><p class = "text-display item-right" >Log in to your Certitude Business account</p><img class="image-location img-left" src="@/assets/student_info_pic1.gif" alt=""></CCardGroupItem>
+          <CCardGroupItem><p class = "text-display item-left">View the student's academic credentials</p><img class="image-location img-right" src="@/assets/business_woman.gif" alt=""></CCardGroupItem>
         </CListGroup>
       </Ccard>
     </div>
