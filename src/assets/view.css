@@ -28,11 +28,10 @@
 }
   
 .header{
-    text-align: center;
     font-weight: bold;
     font-size: large;
-    position: relative;
     left: 40%;
+    text-align: center;
 }
   
 .student {
@@ -49,38 +48,33 @@
     align-items: center;
 }
 
-.text-display{
-    position: relative;
-}
-
 .image-location{
-    position: relative;
     width: 20%;
     height: 25%;
 }
   
-.item-left{
-    top: 50%;
+.text1{
+    width: 40%;
+    padding: 2%;
     font-size: large;
     font-weight: bolder;
-}
-
-.item-right{
-    left: 50%;
-    bottom: 20vh;  
+  }
+  .text2{
+    margin: 10%;
     font-size: large;
     font-weight: bolder;
-}
-
-.img-right{
-    left: 75%;
-    bottom: 5vh;
-}
-  
-.img-left{
-    bottom: 5vh;
-    left: 3%;
-}
+    text-align: center;
+  }
+  .img1{
+    margin: 5%;
+  }
+  .line{
+    padding: 5%;
+  }
+  .line-item{
+    text-align: center;
+    padding: 5% 0;
+  }
   
 .footer {
     background: darkslategray;
