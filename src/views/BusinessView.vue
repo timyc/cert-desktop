@@ -6,7 +6,7 @@
       <CListGroup>
         <CCardGroupItem class="line"><p class="line-item"><span class="text1">Click on the link provided by the student</span><span class="img1"><img class = "image-location" src="@/assets/student_info_pic2.png" alt=""></span></p></CCardGroupItem>
         <CCardGroupItem class="line"><p class="line-item"><span class="img2"><img class="image-location" src="@/assets/student_info_pic1.gif" alt=""></span><span class="text2">Log in to your Certitude Business account</span></p></CCardGroupItem>
-        <CCardGroupItem class="line"><p class="line-item"><span class="text1">View the student's academic credentials</span><span class="img1"><img class = "image-location" src="@/assets/supportIcon.gif" alt=""></span></p></CCardGroupItem>
+        <CCardGroupItem class="line"><p class="line-item"><span class="text1">View the student's academic credentials</span><span class="img1"><img class = "image-location" src="@/assets/business_woman.gif" alt=""></span></p></CCardGroupItem>
       </CListGroup>
       
     </Ccard>
