@@ -33,7 +33,7 @@
 
     </template>
     
-    <style>
+    <style scoped>
 
     .text{
       font-family: 'Comfortaa' ;
