@@ -90,7 +90,7 @@ export default defineComponent({
   <el-row id="about">
     <div class="container">
       <el-row>
-         <!--  <el-col :span="12" style="padding-left:50px">
+          <el-col :span="12" style="padding-left:50px">
           <div class="wrapper p-relative">
 
             <div class="secondary-content">
@@ -122,8 +122,8 @@ export default defineComponent({
             </div> 
           </div>
           
-        </el-col> -->
-        <el-col :span="12" style="padding-left:50px">
+        </el-col>
+        <!-- <el-col :span="12" style="padding-left:50px">
           <div class="wrapper p-relative">
             <div class="secondary-content">
 
@@ -150,9 +150,12 @@ export default defineComponent({
                 other's credentials in a seamless and secure way.
               </p>
             </div>
-            <img class = "about-img" src="../assets/about.png"/> 
+             <img class = "about-img" src="../assets/about.png"/>  
           </div>
-        </el-col>
+        </el-col> -->
+
+
+
       </el-row>
     </div>
   </el-row>
