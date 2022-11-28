@@ -42,8 +42,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #D3D3D3;
 }
+
 .info-display{
     background-color: white;
     width: 37%;
@@ -51,11 +51,24 @@
     align-items: center;
 }
 
-.image-location{
-    width: 20%;
-    height: 25%;
+.text-display{
+    position: relative;
 }
-  
+.image-location{
+    position: relative;
+   width: 100px;
+   height: 100px;
+}
+ 
+@media screen and (max-width:500px){
+
+    .image-location{
+        position: relative;
+        width: 11vh;
+        height: 11vh;
+    }
+}
+
 .text1{
     width: 40%;
     padding: 2%;
@@ -102,4 +115,17 @@
     font-size: 25px;
     display: flex;
     justify-content: center;
+}
+
+.item-left{
+    top: 5vh;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.item-right{
+    left: 20vh;
+    top: 5vh;    
+    font-size: large;
+    font-weight: bolder;
 }

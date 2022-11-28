@@ -4,18 +4,18 @@
     <div class="student">
     <el-card>
     <!-- <Ccard class = "info-display"> -->
-      <div class = "header">How it Works</div>
+      <div class = "info-header">How it Works</div>
       <el-container>
         <el-aside width="100px"><img class="image-location" src="@/assets/qr.png"  alt=""/></el-aside>
-        <el-main class="text">Click on the link provided by the student</el-main>
+        <el-main class="info-text">Click on the link provided by the student</el-main>
       </el-container>
       <el-container>
-        <el-main class="text">Log in to your Certitude Business account</el-main>
+        <el-main class="info-text">Log in to your Certitude Business account</el-main>
         <el-aside width="100px"><img class="image-location" src="@/assets/student_info_pic1.jpg" alt=""/></el-aside>
       </el-container>
       <el-container>
         <el-aside width="100px"><img class="image-location" src="@/assets/student_info_pic3.jpg" alt=""/></el-aside>
-        <el-main class="text">View the student's academic credentials</el-main>
+        <el-main class="info-text">View the student's academic credentials</el-main>
       </el-container>
   </el-card>
   </div>

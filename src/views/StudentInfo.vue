@@ -3,18 +3,18 @@
     <div class="student">
     <el-card>
     <!-- <Ccard class = "info-display"> -->
-      <div class = "header">How it Works</div>
+      <div class = "info-header">How it Works</div>
       <el-container>
         <el-aside width="100px"><img class="image-location" src="@/assets/student_info_pic1.jpg" alt=""/></el-aside>
-        <el-main class="text">Login to your univeristy network in app</el-main>
+        <el-main class="info-text">Login to your univeristy network in app</el-main>
       </el-container>
       <el-container>
-        <el-main class="text">Click to generate a link/QR code</el-main>
+        <el-main class="info-text">Click to generate a link/QR code</el-main>
         <el-aside width="100px"><img class="image-location" src="@/assets/qr.png" alt=""/></el-aside>
       </el-container>
       <el-container>
         <el-aside width="100px"><img class="image-location" src="@/assets/student_info_pic3.jpg" alt=""/></el-aside>
-        <el-main class="text">Share the link with a participating business</el-main>
+        <el-main class="info-text">Share the link with a participating business</el-main>
       </el-container>
   </el-card>
   </div>
@@ -32,18 +32,17 @@
   </template>
   
   <style scoped>
-  .text{
+  .info-text{
     font-family: 'Comfortaa' ;
     font-size: 15px;
   }
-  .header{
+  .info-header{
     font-family: 'Secular One';
     margin-bottom:30px ;
     font-weight: bold;
     font-size: 25px;
     display: flex;
     justify-content: center;
-    
 }
   @media (min-width: 1024px) {
   }
