@@ -11,7 +11,7 @@ export default defineComponent({
   },
   methods: {
     studentClick() {
-      window.location.replace("https://m.certitude-demo.delta.games");
+      window.location.replace("https://cert-tawny.vercel.app/");
     },
     handleClose(done: () => void) {
       ElMessageBox.confirm('Are you sure to close this dialog?')
