@@ -1,21 +1,30 @@
-<template>
-  <p class = "logo"><span class = "logo1">Cert</span><span class = "logo2">itude</span></p>
+<template >
+  <div class = "background">
     <div class="student">
-    <Ccard class = "info-display">
-      <CCardHeader class = "header"><div>How it Works</div></CCardHeader>
-      <CListGroup>
-        <CCardGroupItem class="line"><p class="line-item"><span class="text1">Login to your univeristy network in app</span><span class="img1"><img class = "image-location" src="@/assets/student_info_pic1.gif" alt=""></span></p></CCardGroupItem>
-        <CCardGroupItem class="line"><p class="line-item"><span class="img2"><img class="image-location" src="@/assets/student_info_pic2.png" alt=""></span><span class="text2">Click to generate a link/QR code</span></p></CCardGroupItem>
-        <CCardGroupItem class="line"><p class="line-item"><span class="text1">Share the link with a participating business</span><span class="img1"><img class = "image-location" src="@/assets/business_woman.gif" alt=""></span></p></CCardGroupItem>
-      </CListGroup>
-      
-    </Ccard>
-    <!--<img class="man-standing" src="@/assets/lawyer_standin.png" alt=""> -->
+    <el-card>
+    <!-- <Ccard class = "info-display"> -->
+      <div class = "header">How it Works</div>
+      <el-container>
+        <el-aside width="100px"><img class="image-location" src="@/assets/student_info_pic1.jpg" alt=""/></el-aside>
+        <el-main class="text">Login to your univeristy network in app</el-main>
+      </el-container>
+      <el-container>
+        <el-main class="text">Click to generate a link/QR code</el-main>
+        <el-aside width="100px"><img class="image-location" src="@/assets/qr.png" alt=""/></el-aside>
+      </el-container>
+      <el-container>
+        <el-aside width="100px"><img class="image-location" src="@/assets/student_info_pic3.jpg" alt=""/></el-aside>
+        <el-main class="text">Share the link with a participating business</el-main>
+      </el-container>
+  </el-card>
   </div>
- 
-    <el-footer class="footer" height="300">
+  <!-- <img class="man-standing" src="@/assets/lawyer_standin.png" alt=""> -->
+  </div>
+
+
+  <el-footer class="footer" height="300">
       <div>
-      <p>educertified@gmail.com</p>
+      <span>educertified@gmail.com</span>
   <img class = "socials" src="@/assets/linkedin_logo.png" alt="">
   <img class = "socials" src="@/assets/instagram_logo.png" alt="">
 </div>
@@ -23,30 +32,20 @@
   </template>
   
   <style>
+  .text{
+    font-family: 'Comfortaa' ;
+    font-size: 15px;
+  }
+  .header{
+    font-family: 'Secular One';
+    margin-bottom:30px ;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    
+}
   @media (min-width: 1024px) {
-
-    .text1{
-      width: 50%;
-      padding: 2%;
-      font-size: large;
-      font-weight: bolder;
-    }
-    .text2{
-      margin: 10%;
-      font-size: large;
-      font-weight: bolder;
-      text-align: center;
-    }
-    .img1{
-      margin: 5%;
-    }
-    .line{
-      padding: 6%;
-    }
-    .line-item{
-      text-align: center;
-      padding: 5% 0;
-    }
   }
   </style>
 

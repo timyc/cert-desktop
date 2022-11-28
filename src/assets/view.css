@@ -2,6 +2,9 @@
 .socials{
     width: 5vh;
     margin-left: auto;
+    float: right;
+    margin-left: 20px;
+    margin-top: -2px;
 }
 
 .logo{
