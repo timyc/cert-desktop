@@ -1,5 +1,8 @@
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, computed } from 'vue';
+import { firebaseStore } from './stores/firebase';
+const loggedIn = computed(() => firebaseStore().loggedIn);
+console.log(loggedIn);
 export default defineComponent({
   name: 'App',
   data() {

@@ -1,6 +1,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import { ElMessageBox } from 'element-plus';
+import FirebaseAuth from '@/components/FirebaseAuth.vue'
 export default defineComponent({
   name: 'App',
   data() {
@@ -9,6 +10,7 @@ export default defineComponent({
       dialogVisible: false,
     }
   },
+  components: {FirebaseAuth},
   methods: {
     studentClick() {
       window.location.replace("https://m.certitude-demo.delta.games");
@@ -133,7 +135,7 @@ export default defineComponent({
     and stuff
   </el-footer>
   <el-dialog v-model="dialogVisible" title="Employer Auth" width="30%" :before-close="handleClose">
-    <span>Authentication options for the employer should be shown here</span>
+    <FirebaseAuth />
     <template #footer>
       <span class="dialog-footer">
         <el-button @click="dialogVisible = false">Cancel</el-button>

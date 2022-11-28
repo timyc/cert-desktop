@@ -1,29 +1,29 @@
 <template>
-  <p class = "logo"><span class = "logo1">Cert</span><span class = "logo2">itude</span></p>
-    <div class="student">
-    <Ccard class = "info-display">
-      <CCardHeader class = "header"><div>How it Works</div></CCardHeader>
-      <CListGroup>
-        <CCardGroupItem class="line"><p class="line-item"><span class="text1">Click on the link provided by the student</span><span class="img1"><img class = "image-location" src="@/assets/student_info_pic2.png" alt=""></span></p></CCardGroupItem>
-        <CCardGroupItem class="line"><p class="line-item"><span class="img2"><img class="image-location" src="@/assets/student_info_pic1.gif" alt=""></span><span class="text2">Log in to your Certitude Business account</span></p></CCardGroupItem>
-        <CCardGroupItem class="line"><p class="line-item"><span class="text1">View the student's academic credentials</span><span class="img1"><img class = "image-location" src="@/assets/business_woman.gif" alt=""></span></p></CCardGroupItem>
-      </CListGroup>
-      
-    </Ccard>
-    <!--<img class="man-standing" src="@/assets/lawyer_standin.png" alt=""> -->
+    <p class = "logo"><span class = "logo1">Cert</span><span class = "logo2">itude</span></p>
+      <div class="student">
+      <Ccard class = "info-display">
+        <CCardHeader class = "header"><div>How it Works</div></CCardHeader>
+        <CListGroup>
+          <CCardGroupItem class="line"><p class="line-item"><span class="text1">Click on the link provided by the student</span><span class="img1"><img class = "image-location" src="@/assets/student_info_pic2.png" alt=""></span></p></CCardGroupItem>
+          <CCardGroupItem class="line"><p class="line-item"><span class="img2"><img class="image-location" src="@/assets/student_info_pic1.gif" alt=""></span><span class="text2">Log in to your Certitude Business account</span></p></CCardGroupItem>
+          <CCardGroupItem class="line"><p class="line-item"><span class="text1">View the student's academic credentials</span><span class="img1"><img class = "image-location" src="@/assets/business_woman.gif" alt=""></span></p></CCardGroupItem>
+        </CListGroup>
+        
+      </Ccard>
+      <!--<img class="man-standing" src="@/assets/lawyer_standin.png" alt=""> -->
+    </div>
+   
+      <el-footer class="footer" height="300">
+        <div>
+        <p>educertified@gmail.com</p>
+    <img class = "socials" src="@/assets/linkedin_logo.png" alt="">
+    <img class = "socials" src="@/assets/instagram_logo.png" alt="">
   </div>
- 
-    <el-footer class="footer" height="300">
-      <div>
-      <p>educertified@gmail.com</p>
-  <img class = "socials" src="@/assets/linkedin_logo.png" alt="">
-  <img class = "socials" src="@/assets/instagram_logo.png" alt="">
-</div>
-  </el-footer>
-  </template>
-  
+    </el-footer>
+    </template>
     
-    <style>
-    @media (min-width: 1024px) {
-    }
-    </style>
+      
+      <style>
+      @media (min-width: 1024px) {
+      }
+      </style>
