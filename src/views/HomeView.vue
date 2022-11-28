@@ -92,33 +92,38 @@ export default defineComponent({
       <el-row>
         <el-col :span="12">
           <div class="wrapper p-relative">
-            <div class="secondary-content">
-              <el-card class="box-card center">
-                <div class="text item">
-                  <el-icon :size="30" color="#ff7315" class="no-inherit">
-                    <Pointer />
-                  </el-icon>
-                  <h2>One-Click Check</h2>
-                  <p>
-                    Students send credentials instantly through a secure link
-                  </p>
-                </div>
-                <el-divider>
-                  <el-icon>
-                    <star-filled />
-                  </el-icon>
-                </el-divider>
-                <div class="text item">
-                  <el-icon :size="30" color="#ff7315" class="no-inherit">
-                    <SetUp />
-                  </el-icon>
-                  <h2>Data Belongs to Students</h2>
-                  <p>
-                    Business won't share data on signup and only see what you send
-                  </p>
-                </div>
+            <div class="wrap">
+            <div class="secondary-content"> 
+              <h1 class="about-us">About Us</h1>
+
+              <el-card class="about-card">
+                <el-container >
+                  <el-aside width="200px"><img class = "coo-img" src="../assets/coo.PNG"/> </el-aside>
+                  <el-main class="coo-spacing subtitle">Rishabh Harish <div class="no-inherit">COO</div></el-main>
+                 
+                  
+                </el-container>
               </el-card>
+
+              <el-card class="about-card2">
+                <el-container>
+
+                  <el-aside width="200px"><img class = "cto-img" src="../assets/cto.PNG"/> </el-aside>
+                  <el-main class="cto-spacing subtitle">Bobby Missirian <div class="no-inherit">CTO</div></el-main>
+                </el-container>
+              </el-card>
+
+              <p>
+                We are a team of students and professionals who are passionate about education and technology. We
+                believe that education is the key to a better future and that technology can help us achieve that
+                future. We are building a platform that will help students and businesses connect and verify each
+                other's credentials in a seamless and secure way.
+              </p>
             </div>
+            <img class = "about-img" src="../assets/about.png"/> 
+            </div>
+
+
           </div>
         </el-col>
         <el-col :span="12" style="padding-left:50px">
