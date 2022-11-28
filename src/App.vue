@@ -242,6 +242,8 @@ nav{
 .nav-button{
   background: transparent;
   border: 0;
+  width: 200px;
+  height: 200px;
 }
 .bar{
   background: linear-gradient(90deg, rgb(255, 119, 0) 0%, rgba(252,181,49,1) 40%, rgba(254,209,50,1) 100%);
