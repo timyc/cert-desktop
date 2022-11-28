@@ -30,24 +30,58 @@ export default defineComponent({
 
 <template>
   <header class="headSplash p-relative" id="home">
-    <div class="particles">
+    <!-- <div class="particles">
       <img src="@/assets/particles_blurred.png" alt="spinning particles" class="animation-image" />
-    </div>
+    </div> -->
     <div class="container">
       <el-row>
         <el-col>
-          <div class="wrapper p-relative">
-            <div class="content">
-              <h1>Certitude is Seamless</h1>
-              <p>
+          <div class="wrapper p-relative overall-content">
+            <div class="content text-cert">
+              <h1 class="text-wrapper">Certitude is <span class="seam">Seamless</span> </h1>
+              <p class="intro-text">
                 Our revolutionary education verification
-                platform is simple, instant, and secure.
+                platform is <br/>simple, instant, and secure
               </p>
               <div class="buttons">
-                <el-button class="bgradient" type="warning" @click="dialogVisible = true" round>I am a recruiter</el-button>
-                <el-button class="bgradient" @click="studentClick" round>I am a Student</el-button>
+                <!-- <el-button class="bgradient" type="warning" @click="dialogVisible = true" round>I am a recruiter</el-button>
+                
+                <el-button class="bgradient" @click="studentClick" round>I am a Student</el-button> -->
+                
+                <button class="student-btn" @click="studentClick">Student<el-icon><CircleCheckFilled /></el-icon></button>
+                <br/>
+                <button class="recruiter" @click="dialogVisible = true">Recruiter <el-icon><Avatar /></el-icon></button>
+                <br/>
+
+                <!-- <button class="student">I am a Student <el-icon><Notebook /></el-icon></button> -->
               </div>
             </div>
+            
+            <img class="worker" src="@/assets/workers.png"/>
+              <el-card class=" card-box">
+                <div class="card-horizontal">
+                <div class="text center item">
+                  <el-icon :size="30" color="#fcb531" class="icon-grad">
+                    <Pointer />
+                  </el-icon>
+                  <h2>One-Click Check</h2>
+                  <p>
+                    Students send credentials instantly through a secure link
+                  </p>
+                </div>
+                <div class="vertical-bar"></div>
+                <div class="text center item">
+                  <el-icon :size="30" color="#fcb531" class="icon-grad">
+                    <SetUp />
+                  </el-icon>
+                  <h2>Data Belongs to Students</h2>
+                  <p>
+                    Business won't share data on signup and only see what you send
+                  </p>
+                </div>
+              </div>
+              </el-card>
+            
           </div>
         </el-col>
       </el-row>

@@ -108,7 +108,7 @@ export default defineComponent({
         </ul>
 
         <div class="hamburger">
-          <button @click="toggleMobileNav" v-show="mobile" class="nav-button"><el-icon :class="mobileNav ?'hamburger-active': 'hamburger-not-active'  "><Menu/></el-icon></button>
+          <button @click="toggleMobileNav" v-show="mobile" class="nav-button"><el-icon :size = 50 :class="mobileNav ?'hamburger-active': 'hamburger-not-active'  "><Menu/></el-icon></button>
         </div>
 
         <Transition name="mobile-nav" >
@@ -242,8 +242,6 @@ nav{
 .nav-button{
   background: transparent;
   border: 0;
-  width: 200px;
-  height: 200px;
 }
 .bar{
   background: linear-gradient(90deg, rgb(255, 119, 0) 0%, rgba(252,181,49,1) 40%, rgba(254,209,50,1) 100%);
