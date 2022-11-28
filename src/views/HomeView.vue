@@ -41,7 +41,7 @@ export default defineComponent({
               <h1>Certitude is Seamless</h1>
               <p>
                 Our revolutionary education verification
-                platform is simple, instant, and secure
+                platform is simple, instant, and secure.
               </p>
               <div class="buttons">
                 <el-button class="bgradient" type="warning" @click="dialogVisible = true" round>I am a recruiter</el-button>
