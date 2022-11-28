@@ -5,18 +5,18 @@
     <div class="student">
     <el-card>
     <!-- <Ccard class = "info-display"> -->
-      <div class = "header">How it Works</div>
+      <div class = "info-header">How it Works</div>
       <el-container>
         <el-aside width="100px"><img class="image-location" src="@/assets/student_info_pic1.jpg"  alt=""/></el-aside>
-        <el-main class="text">Contact us directly via our contact page</el-main>
+        <el-main class="info-text">Contact us directly via our contact page</el-main>
       </el-container>
       <el-container>
-        <el-main class="text">We make an end-to-end encrypted pathway <br>between your records and the student's app</el-main>
+        <el-main class="info-text">We make an end-to-end encrypted pathway <br>between your records and the student's app</el-main>
         <el-aside width="100px"><img class="image-location" src="@/assets/qr.png" alt=""/></el-aside>
       </el-container>
       <el-container>
         <el-aside width="100px"><img class="image-location" src="@/assets/supportIcon.png" alt=""/></el-aside>
-        <el-main class="text">View the student's academic credentials</el-main>
+        <el-main class="info-text">View the student's academic credentials</el-main>
       </el-container>
   </el-card>
   </div>
