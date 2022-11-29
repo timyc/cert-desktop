@@ -150,7 +150,7 @@ export default defineComponent({
 
               <el-card class="about-card">
                 <el-container >
-                  <!-- <el-aside width="200px"><img class = "coo-img" src="../assets/coo.png"/> </el-aside> -->
+                  <el-aside width="200px"><img class = "coo-img" src="../assets/coo.png"/> </el-aside>
                   <el-main class="coo-spacing subtitle">Rishabh Harish <div class="no-inherit">COO</div></el-main>
                 </el-container>
               </el-card>
@@ -185,9 +185,9 @@ export default defineComponent({
                   </p>
                 </div>
               </el-card> -->
-              <img class = "about-img" src="../assets/about.png"/> 
+              
             </div> 
-            
+            <img class = "about-img" src="../assets/about.png"/> 
           </div>
           
         </el-col>
@@ -424,6 +424,7 @@ border-radius: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
 }
 .text-cert{
   margin-top: -250px;
