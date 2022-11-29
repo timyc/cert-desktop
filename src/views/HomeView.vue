@@ -88,6 +88,14 @@ export default defineComponent({
     </div>
   </header>
 
+
+
+
+
+
+
+
+<!-- 
   <el-row id="about">
     <div class="container">
       <el-row>
@@ -126,10 +134,10 @@ export default defineComponent({
         </el-col>
       </el-row>
     </div>
-  </el-row>
+  </el-row> -->
 
 
-<!-- 
+
 
   <el-row id="about">
     <div class="container">
@@ -170,7 +178,7 @@ export default defineComponent({
 
       </el-row>
     </div>
-  </el-row> -->
+  </el-row>
 
 
 
