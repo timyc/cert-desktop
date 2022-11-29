@@ -103,15 +103,15 @@ export default defineComponent({
 
               <el-card class="about-card">
                 <el-container >
-                  <img class = "coo-img" src="./assets/coo.png"/> 
-                  <el-aside></el-aside>
+                 
+                  <el-aside> <img class = "coo-img" src="./assets/coo.png"/> </el-aside>
                   <el-main class="coo-spacing subtitle">Rishabh Harish <div class="no-inherit">COO</div></el-main>
                 </el-container>
               </el-card>
               <el-card class="about-card2">
                 <el-container>
-                  <img class = "cto-img" src="./assets/cto.png"/> 
-                  <el-aside ></el-aside>
+                  
+                  <el-aside ><img class = "cto-img" src="./assets/cto.png"/> </el-aside>
                   <el-main class="cto-spacing subtitle">Bobby Missirian <div class="no-inherit">CTO</div></el-main>
                 </el-container>
               </el-card>
@@ -121,32 +121,7 @@ export default defineComponent({
                 future. We are building a platform that will help students and businesses connect and verify each
                 other's credentials in a seamless and secure way.
               </p>
-              <!-- <el-card class="box-card center">
-                <div class="text item">
-                  <el-icon :size="30" color="#ff7315" class="no-inherit">
-                    <Pointer />
-                  </el-icon>
-                  <h2>One-Click Check</h2>
-                  <p>
-                    Students send credentials instantly through a secure link
-                  </p>
-                </div>
-                <el-divider>
-                  <el-icon>
-                    <star-filled />
-                  </el-icon>
-                </el-divider>
-                <div class="text item">
-                  <el-icon :size="30" color="#ff7315" class="no-inherit">
-                    <SetUp />
-                  </el-icon>
-                  <h2>Data Belongs to Students</h2>
-                  <p>
-                    Business won't share data on signup and only see what you send
-                  </p>
-                </div>
-              </el-card> -->
- 
+
               <img class = "about-img" src="../assets/about.png"/>  
             </div> 
           </div>
