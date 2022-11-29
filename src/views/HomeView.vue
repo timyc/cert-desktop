@@ -104,14 +104,14 @@ export default defineComponent({
               <el-card class="about-card">
                 <el-container >
                  
-                  <el-aside> <img class = "coo-img" src="./assets/coo.png"/> </el-aside>
+                  <el-aside> <img class = "coo-img" src="./coo.png"/> </el-aside>
                   <el-main class="coo-spacing subtitle">Rishabh Harish <div class="no-inherit">COO</div></el-main>
                 </el-container>
               </el-card>
               <el-card class="about-card2">
                 <el-container>
                   
-                  <el-aside ><img class = "cto-img" src="./assets/cto.png"/> </el-aside>
+                  <el-aside ><img class = "cto-img" src="./cto.png"/> </el-aside>
                   <el-main class="cto-spacing subtitle">Bobby Missirian <div class="no-inherit">CTO</div></el-main>
                 </el-container>
               </el-card>
