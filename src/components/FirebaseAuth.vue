@@ -19,7 +19,7 @@ export default defineComponent({
             signInFlow: 'popup',
             callbacks: {
                 signInSuccessWithAuthResult: function (authResult: any) {
-                    router.push('/dashboard');
+                    window.location.replace("https://cert-dash-jasonhn1.vercel.app/#/dashboard");
                     return false;
                 }
             }
