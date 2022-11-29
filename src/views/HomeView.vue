@@ -108,6 +108,13 @@ export default defineComponent({
                   <el-main class="coo-spacing subtitle">Rishabh Harish <div class="no-inherit">COO</div></el-main>
                 </el-container>
               </el-card>
+              <el-card class="about-card2">
+                <el-container>
+                  <!-- <img class = "cto-img" src="../assets/cto.PNG"/>  -->
+                  <el-aside ></el-aside>
+                  <el-main class="cto-spacing subtitle">Bobby Missirian <div class="no-inherit">CTO</div></el-main>
+                </el-container>
+              </el-card>
               <p>
                 We are a team of students and professionals who are passionate about education and technology. We
                 believe that education is the key to a better future and that technology can help us achieve that
@@ -139,9 +146,8 @@ export default defineComponent({
                   </p>
                 </div>
               </el-card> -->
-              <img class = "about-img" src="../assets/about.png"/>   
             </div> 
-            
+            <img class = "about-img" src="../assets/about.png"/>   
           </div>
           
         </el-col>
