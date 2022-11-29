@@ -149,10 +149,10 @@ export default defineComponent({
               <h1 class="about-us">About Us</h1>
 
               <el-card class="about-card">
-                <!-- <el-container >
-                  <el-aside width="200px"><img class = "coo-img" src="../assets/coo.PNG"/> </el-aside>
+                <el-container >
+                  <!-- <el-aside width="200px"><img class = "coo-img" src="../assets/coo.png"/> </el-aside> -->
                   <el-main class="coo-spacing subtitle">Rishabh Harish <div class="no-inherit">COO</div></el-main>
-                </el-container> -->
+                </el-container>
               </el-card>
               <p>
                 We are a team of students and professionals who are passionate about education and technology. We
@@ -185,8 +185,9 @@ export default defineComponent({
                   </p>
                 </div>
               </el-card> -->
+              <img class = "about-img" src="../assets/about.png"/> 
             </div> 
-            <img class = "about-img" src="../assets/about.png"/> 
+            
           </div>
           
         </el-col>
