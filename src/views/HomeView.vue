@@ -144,9 +144,18 @@ export default defineComponent({
       <el-row>
           <el-col :span="12" style="padding-left:50px">
           <div class="wrapper p-relative">
-
             <div class="secondary-content">
-              <el-card class="box-card center">
+
+              <h1 class="about-us">About Us</h1>
+
+              <el-card class="about-card">
+                <el-container >
+                  <el-aside width="200px"><img class = "coo-img" src="../assets/coo.PNG"/> </el-aside>
+                  <el-main class="coo-spacing subtitle">Rishabh Harish <div class="no-inherit">COO</div></el-main>
+                </el-container>
+              </el-card>
+      
+              <!-- <el-card class="box-card center">
                 <div class="text item">
                   <el-icon :size="30" color="#ff7315" class="no-inherit">
                     <Pointer />
@@ -170,7 +179,7 @@ export default defineComponent({
                     Business won't share data on signup and only see what you send
                   </p>
                 </div>
-              </el-card>
+              </el-card> -->
             </div> 
           </div>
           
