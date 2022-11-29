@@ -202,7 +202,8 @@ header {
   display: none;
 }
 .about-img{
-  display: none;
+  width: 450px;
+  height: 150px;
 }
 
 .about-card{
