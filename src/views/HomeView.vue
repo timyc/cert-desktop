@@ -149,10 +149,10 @@ export default defineComponent({
               <h1 class="about-us">About Us</h1>
 
               <el-card class="about-card">
-                <el-container >
+                <!-- <el-container >
                   <el-aside width="200px"><img class = "coo-img" src="../assets/coo.PNG"/> </el-aside>
                   <el-main class="coo-spacing subtitle">Rishabh Harish <div class="no-inherit">COO</div></el-main>
-                </el-container>
+                </el-container> -->
               </el-card>
       
               <!-- <el-card class="box-card center">
