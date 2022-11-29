@@ -184,6 +184,9 @@ header {
 
 
 @media screen and (max-width:500px){
+  .p-about{
+    width: 300px;
+  }
   .text-wrapper{
     margin-top:20px;
     font-size: 20px;

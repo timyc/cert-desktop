@@ -115,7 +115,7 @@ export default defineComponent({
                   <el-main class="cto-spacing subtitle">Bobby Missirian <div class="no-inherit">CTO</div></el-main>
                 </el-container>
               </el-card> -->
-              <p>
+              <p class="p-about">
                 We are a team of students and professionals who are passionate about education and technology. We
                 believe that education is the key to a better future and that technology can help us achieve that
                 future. We are building a platform that will help students and businesses connect and verify each
