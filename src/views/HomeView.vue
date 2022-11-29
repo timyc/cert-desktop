@@ -100,21 +100,21 @@ export default defineComponent({
             <div class="secondary-content">
 
               <h1 class="about-us">About Us</h1>
-
-              <el-card class="about-card">
+              <img class = "about-img" src="../assets/about.png"/>  
+              <!-- <el-card class="about-card">
                 <el-container >
                  
-                  <el-aside> <img class = "coo-img" src="./coo.png"/> </el-aside>
+                  <el-aside  width="200px"> <img class = "coo-img" src="./coo.png"/> </el-aside>
                   <el-main class="coo-spacing subtitle">Rishabh Harish <div class="no-inherit">COO</div></el-main>
                 </el-container>
               </el-card>
               <el-card class="about-card2">
                 <el-container>
                   
-                  <el-aside ><img class = "cto-img" src="./cto.png"/> </el-aside>
+                  <el-aside width="200px"><img class = "cto-img" src="./cto.png"/> </el-aside>
                   <el-main class="cto-spacing subtitle">Bobby Missirian <div class="no-inherit">CTO</div></el-main>
                 </el-container>
-              </el-card>
+              </el-card> -->
               <p>
                 We are a team of students and professionals who are passionate about education and technology. We
                 believe that education is the key to a better future and that technology can help us achieve that
@@ -122,7 +122,7 @@ export default defineComponent({
                 other's credentials in a seamless and secure way.
               </p>
 
-              <img class = "about-img" src="../assets/about.png"/>  
+              
             </div> 
           </div>
           
