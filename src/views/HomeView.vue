@@ -146,8 +146,10 @@ export default defineComponent({
                   </p>
                 </div>
               </el-card> -->
+              
+              <img class = "cto-img" src="../assets/cto.PNG"/> 
+              <img class = "about-img" src="../assets/about.png"/>  
             </div> 
-            <img class = "about-img" src="../assets/about.png"/>   
           </div>
           
         </el-col>
