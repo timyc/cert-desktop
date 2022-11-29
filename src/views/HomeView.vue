@@ -154,7 +154,12 @@ export default defineComponent({
                   <el-main class="coo-spacing subtitle">Rishabh Harish <div class="no-inherit">COO</div></el-main>
                 </el-container> -->
               </el-card>
-      
+              <p>
+                We are a team of students and professionals who are passionate about education and technology. We
+                believe that education is the key to a better future and that technology can help us achieve that
+                future. We are building a platform that will help students and businesses connect and verify each
+                other's credentials in a seamless and secure way.
+              </p>
               <!-- <el-card class="box-card center">
                 <div class="text item">
                   <el-icon :size="30" color="#ff7315" class="no-inherit">
@@ -181,6 +186,7 @@ export default defineComponent({
                 </div>
               </el-card> -->
             </div> 
+            <img class = "about-img" src="../assets/about.png"/> 
           </div>
           
         </el-col>
